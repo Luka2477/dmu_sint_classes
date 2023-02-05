@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/bin/Debug/net7.0/task5
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/bin/Debug/net7.0/task5.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/bin/Debug/net7.0/task5.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/bin/Debug/net7.0/task5.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/bin/Debug/net7.0/task5.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/task5.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/task5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/task5.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/task5.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/task5.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/task5.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/task5.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/refint/task5.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/task5.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/task5.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task5/obj/Debug/net7.0/ref/task5.dll
