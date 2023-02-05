@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{D511F254-184A-4252-8255-92767FEB308D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="task3/Program.cs">
+    <Files>
+      <File FileName="task3/Program.cs" Line="10" Column="3" />
+      <File FileName="task2/Program.cs" Line="15" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="day02_messagingSystemsAndChannels" expanded="True">
+            <Node name="task2" expanded="True" />
+            <Node name="task3" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.task2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.task3 FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
