@@ -1,7 +1,8 @@
-﻿using RabbitMQ.Client;
+﻿using System;
+using RabbitMQ.Client;
 using System.Text;
 
-namespace task5
+namespace task6
 {
 	public class Sender
 	{
@@ -37,7 +38,7 @@ namespace task5
 				arguments: null
 			);
 
-			Console.WriteLine($" [*] Connected to RabbitMQ on {HostName}:{Port}");
+			Console.WriteLine($" [*] Sender connected to RabbitMQ on {HostName}:{Port}");
 		}
 
 		public void CreateExchange()
@@ -52,9 +53,17 @@ namespace task5
 				exchange: ExchangeName,
 				type: ExchangeType.Direct
 			);
-		}
 
-		public void SendMessage(string message)
+			_channel.QueueBind(
+				queue: QueueName,
+				exchange: ExchangeName,
+				routingKey: RoutingKey ?? QueueName
+			);
+
+			Console.WriteLine(" [*] Sender exchange created and queue bound");
+        }
+
+        public void SendMessage(string message)
 		{
 			byte[] body = Encoding.UTF8.GetBytes(message);
 
@@ -65,7 +74,7 @@ namespace task5
 				body: body
 			);
 
-			Console.WriteLine($" [x] Sent {message}");
+			Console.WriteLine($" [x] Sent {RoutingKey ?? QueueName}:{message}");
 		}
 	}
 }

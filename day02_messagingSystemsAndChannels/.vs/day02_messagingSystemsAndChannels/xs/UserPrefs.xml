@@ -1,15 +1,14 @@
-﻿<Properties StartupConfiguration="{250C7411-3813-4241-A1BD-8EC1EC694FBA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="task3/Program.cs">
-    <Files>
-      <File FileName="task3/Program.cs" Line="10" Column="3" />
-      <File FileName="task2/Program.cs" Line="15" Column="43" />
-    </Files>
+﻿<Properties StartupConfiguration="{39CBBC4B-64BB-4C9B-AE38-1ABEA725EEF0}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="day02_messagingSystemsAndChannels" expanded="True">
             <Node name="task2" expanded="True" />
             <Node name="task3" expanded="True" />
+            <Node name="task5" expanded="True">
+              <Node name="InformationCenter.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -19,7 +18,8 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.task3 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.task6 FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.task5 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.task5 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>

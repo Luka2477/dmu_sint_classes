@@ -1,9 +1,9 @@
-﻿using System.Text;
-using System.Threading.Channels;
+﻿using System;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using System.Text;
 
-namespace task5
+namespace task6
 {
 	public class Receiver
 	{
@@ -42,9 +42,9 @@ namespace task5
 			);
 
 			Console.WriteLine($" [*] Connected to RabbitMQ on {HostName}:{Port}");
-        }
+		}
 
-		public void CreateExchange()
+		public void CreateExchangeAndBind()
 		{
 			if (_channel == null)
 			{
@@ -56,9 +56,17 @@ namespace task5
 				exchange: ExchangeName,
 				type: ExchangeType.Direct
 			);
+
+			_channel.QueueBind(
+				queue: QueueName,
+				exchange: ExchangeName,
+				routingKey: RoutingKey ?? QueueName
+			);
+
+			Console.WriteLine(" [*] Receiver exchange created and queue bound");
 		}
 
-        public void ReadMessage()
+		public void ReadMessage()
 		{
 			BasicGetResult result = _channel.BasicGet(
 				queue: QueueName,
@@ -68,58 +76,62 @@ namespace task5
 			if (result == null)
 			{
 				Console.WriteLine($" [*] No messages to read...");
-            }
+			}
 			else
 			{
 				byte[] body = result.Body.ToArray();
 				string message = Encoding.UTF8.GetString(body);
-                Console.WriteLine($" [x] Received {message}");
-            }
-        }
+				string routingKey = result.RoutingKey;
+				Console.WriteLine($" [x] Received {routingKey}:{message}");
+			}
+		}
 
 		public void WaitAndRead()
 		{
-            Console.WriteLine($" [*] Waiting for message...");
+			Console.WriteLine($" [*] Waiting for message...");
 
 			_interrupt = false;
-            BasicGetResult? result = null;
+			BasicGetResult? result = null;
 			while (result == null && _interrupt == false)
 			{
-                result = _channel.BasicGet(
+				result = _channel.BasicGet(
 					queue: QueueName,
 					autoAck: true
 				);
-            }
+			}
 
-            byte[] body = result.Body.ToArray();
-            string message = Encoding.UTF8.GetString(body);
-            Console.WriteLine($" [x] Received {message}");
-        }
+			byte[] body = result.Body.ToArray();
+			string message = Encoding.UTF8.GetString(body);
+			string routingKey = result.RoutingKey;
+			Console.WriteLine($" [x] Received {routingKey}:{message}");
+		}
 
 		public void Interrupt()
 		{
 			Console.WriteLine(" [*] Interrupting waiting for message...");
 
-            _interrupt = true;
+			_interrupt = true;
 		}
 
 		public void StartListening()
 		{
-            Console.WriteLine(" [*] Started listening for messages...");
+			Console.WriteLine(" [*] Started listening for messages...");
 
-            EventingBasicConsumer consumer = new(_channel);
-            consumer.Received += (model, ea) =>
-            {
-                byte[] body = ea.Body.ToArray();
-                string message = Encoding.UTF8.GetString(body);
-                Console.WriteLine($" [x] Received {message}");
+			EventingBasicConsumer consumer = new(_channel);
+			consumer.Received += (model, ea) =>
+			{
+				byte[] body = ea.Body.ToArray();
+				string message = Encoding.UTF8.GetString(body);
+				string routingKey = ea.RoutingKey;
+
+                Console.WriteLine($" [x] Received {routingKey}:{message}");
 			};
-            _consumerTag = _channel.BasicConsume(
-                queue: QueueName,
-                autoAck: true,
-                consumer: consumer
-            );
-        }
+			_consumerTag = _channel.BasicConsume(
+				queue: QueueName,
+				autoAck: true,
+				consumer: consumer
+			);
+		}
 
 		public void StopListening()
 		{
@@ -128,7 +140,7 @@ namespace task5
 			);
 
 			Console.WriteLine(" [*] Stopped listening for messages...");
-        }
-    }
+		}
+	}
 }
 
