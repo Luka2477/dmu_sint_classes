@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/bin/Debug/net7.0/task6
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/bin/Debug/net7.0/task6.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/bin/Debug/net7.0/task6.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/bin/Debug/net7.0/task6.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/bin/Debug/net7.0/task6.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/task6.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/task6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/task6.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/task6.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/task6.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/task6.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/task6.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/refint/task6.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/task6.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/task6.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day02_messagingSystemsAndChannels/task6/obj/Debug/net7.0/ref/task6.dll

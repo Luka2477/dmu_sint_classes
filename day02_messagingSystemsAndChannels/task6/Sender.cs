@@ -4,78 +4,85 @@ using System.Text;
 
 namespace task6
 {
-	public class Sender
-	{
-		public string? HostName { get; set; }
-		public int Port { get; set; }
-		public string? UserName { private get; set; }
-		public string? Password { private get; set; }
-		public string? QueueName { get; set; }
-		public string? ExchangeName { get; set; }
-		public string? RoutingKey { get; set; }
+    public class Sender
+    {
+        public string Prefix { get; set; } = "*";
+        public string HostName { get; set; } = "localhost";
+        public int Port { get; set; } = 5672;
+        public string? UserName { private get; set; }
+        public string? Password { private get; set; }
+        public string? QueueName { get; set; }
+        public string? ExchangeName { get; set; }
 
-		private ConnectionFactory? _factory;
-		private IConnection? _connection;
-		private IModel? _channel;
+        private ConnectionFactory? _factory;
+        private IConnection? _connection;
+        private IModel? _channel;
 
-		public void Connect()
-		{
-			_factory = new()
-			{
-				HostName = HostName,
-				Port = Port,
-				UserName = UserName,
-				Password = Password
-			};
-			_connection = _factory.CreateConnection();
-			_channel = _connection.CreateModel();
+        public void Connect()
+        {
+            _factory = new()
+            {
+                HostName = HostName,
+                Port = Port,
+                UserName = UserName,
+                Password = Password
+            };
+            _connection = _factory.CreateConnection();
+            _channel = _connection.CreateModel();
 
-			_channel.QueueDeclare(
-				queue: QueueName,
-				durable: false,
-				exclusive: false,
-				autoDelete: false,
-				arguments: null
-			);
-
-			Console.WriteLine($" [*] Sender connected to RabbitMQ on {HostName}:{Port}");
-		}
-
-		public void CreateExchange()
-		{
-			if (_channel == null)
-			{
-				Console.WriteLine(" [*] Sender is not connected to RabbitMQ...");
-				return;
-			}
-
-			_channel.ExchangeDeclare(
-				exchange: ExchangeName,
-				type: ExchangeType.Direct
-			);
-
-			_channel.QueueBind(
-				queue: QueueName,
-				exchange: ExchangeName,
-				routingKey: RoutingKey ?? QueueName
-			);
-
-			Console.WriteLine(" [*] Sender exchange created and queue bound");
+            Console.WriteLine($" [{Prefix}] Sender connected to RabbitMQ on {HostName}:{Port}");
         }
 
-        public void SendMessage(string message)
-		{
-			byte[] body = Encoding.UTF8.GetBytes(message);
+        public void CreateQueue()
+        {
+            if (_channel == null)
+            {
+                Console.WriteLine($" [{Prefix}] Sender is not connected to RabbitMQ...");
+                return;
+            }
 
-			_channel.BasicPublish(
-				exchange: ExchangeName ?? string.Empty,
-				routingKey: RoutingKey ?? QueueName,
-				basicProperties: null,
-				body: body
-			);
+            _channel.QueueDeclare(
+                queue: QueueName,
+                durable: false,
+                exclusive: false,
+                autoDelete: false,
+                arguments: null
+            );
 
-			Console.WriteLine($" [x] Sent {RoutingKey ?? QueueName}:{message}");
-		}
-	}
+            Console.WriteLine($" [{Prefix}] Sender connected to queue {QueueName}");
+        }
+
+        public void CreateExchange()
+        {
+            if (_channel == null)
+            {
+                Console.WriteLine($" [{Prefix}] Sender is not connected to RabbitMQ...");
+                return;
+            }
+
+            _channel.ExchangeDeclare(
+                exchange: ExchangeName,
+                type: ExchangeType.Direct
+            );
+
+            Console.WriteLine($" [{Prefix}] Sender exchange created");
+        }
+
+        public void SendMessage(string message, string? routingKey = "")
+        {
+            byte[] body = Encoding.UTF8.GetBytes(message);
+
+            routingKey = routingKey != null && routingKey != string.Empty ? routingKey : QueueName;
+
+            _channel.BasicPublish(
+                exchange: ExchangeName ?? string.Empty,
+                routingKey: routingKey,
+                basicProperties: null,
+                body: body
+            );
+
+            Console.WriteLine($" [{Prefix}] Sent '{routingKey}':'{message}'");
+        }
+    }
 }
 
