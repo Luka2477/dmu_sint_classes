@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/bin/Debug/net7.0/task2
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/bin/Debug/net7.0/task2.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/bin/Debug/net7.0/task2.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/bin/Debug/net7.0/task2.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/bin/Debug/net7.0/task2.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/task2.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/task2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/task2.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/task2.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/task2.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/task2.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/task2.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/refint/task2.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/task2.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/task2.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day04_messaging_channels/task2/obj/Debug/net7.0/ref/task2.dll
