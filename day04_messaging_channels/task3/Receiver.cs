@@ -3,7 +3,7 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
 
-namespace task2
+namespace task3
 {
 	public delegate void HandleMessageDelegate(string rkey, string msg);
 

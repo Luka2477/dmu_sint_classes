@@ -2,7 +2,7 @@
 using RabbitMQ.Client;
 using System.Text;
 
-namespace task2
+namespace task3
 {
 	public class Sender
 	{

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace task2
+namespace task3
 {
 	public class TrafficControl
 	{
@@ -16,7 +16,7 @@ namespace task2
 			_sender.Connect();
 		}
 
-		public void CreateQueue(string queueName)
+		public void Sender_CreateQueue(string queueName)
 		{
 			if (_sender == null)
 			{
@@ -27,7 +27,7 @@ namespace task2
 			_sender.CreateQueue();
 		}
 
-		public void CreateExchange(string exchangeName)
+		public void Sender_CreateExchange(string exchangeName)
 		{
 			if (_sender == null)
 			{
@@ -38,9 +38,9 @@ namespace task2
 			_sender.CreateExchange();
 		}
 
-		public void SendMessage(string message)
+		public void Sender_SendMessage(string message, string? routingKey = "")
 		{
-			_sender.SendMessage(message);
+			_sender.SendMessage(message, routingKey);
 		}
 	}
 }

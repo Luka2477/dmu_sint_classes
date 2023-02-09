@@ -1,9 +1,11 @@
 ﻿using System;
-namespace task2
+using System.Text.Json;
+
+namespace task3
 {
-	public class InformationCenter
+	public class Airline
 	{
-		private Receiver _receiver;
+		private Receiver? _receiver;
 
 		public void CreateReceiver(string queueName, HandleMessageDelegate callback, string prefix = "*")
 		{
@@ -17,7 +19,7 @@ namespace task2
 			_receiver.Connect();
 		}
 
-		public void CreateExchange(string exchangeName, string routingKey)
+		public void Receiver_CreateExchange(string exchangeName, string routingKey)
 		{
 			if (_receiver == null)
 			{
@@ -29,14 +31,20 @@ namespace task2
 			_receiver.CreateExchangeAndBind();
 		}
 
-		public void StartListening()
+		public void Receiver_StartListening()
 		{
 			_receiver.StartListening();
 		}
 
-		public void StopListening()
+		public void Receiver_StopListening()
 		{
 			_receiver.StopListening();
+		}
+
+		public static void HandleArrival(string rkey, string msg)
+		{
+			Messages.Arrival? msgObj = JsonSerializer.Deserialize<Messages.Arrival>(msg);
+			Console.WriteLine(msgObj);
 		}
 	}
 }

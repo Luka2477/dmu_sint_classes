@@ -1,5 +1,5 @@
 ﻿using System;
-namespace task2
+namespace task3
 {
 	public class Messages
 	{
