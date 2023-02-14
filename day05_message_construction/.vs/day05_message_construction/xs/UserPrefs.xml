@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{BD93EA1B-11AB-464B-9FED-DAFB0D285EA9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test_rpc/Program.cs">
+    <Files>
+      <File FileName="test_rpc/RPCServer.cs" Line="10" Column="24" />
+      <File FileName="test_rpc/Program.cs" Line="23" Column="50" />
+      <File FileName="test_rpc/Messages.cs" Line="1" Column="1" />
+      <File FileName="test_rpc/RPCClient.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="day05_message_construction" expanded="True">
+            <Node name="given" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="task2" expanded="True" />
+            <Node name="test_rpc" expanded="True">
+              <Node name="RPCClient.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.given FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.task2 PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>
