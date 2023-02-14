@@ -13,7 +13,7 @@ class Program
 			UserName = "guest",
 			Password = "pass123!",
 			Prefix = "CLIENT",
-			RequestQueueName = "rpc_request",
+			RequestQueueName = "rpc_request_aic",
 			ReplyQueueName = "rpc_reply",
 		};
 		client.Connect();
@@ -29,7 +29,7 @@ class Program
 			UserName = "guest",
 			Password = "pass123!",
 			Prefix = "SERVER",
-			RequestQueueName = "rpc_request",
+			RequestQueueName = "rpc_request_aic",
 		};
 		server.Connect();
 		server.StartListening();

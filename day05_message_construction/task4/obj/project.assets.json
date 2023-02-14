@@ -119,11 +119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/test_rpc/test_rpc.csproj",
-      "projectName": "test_rpc",
-      "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/test_rpc/test_rpc.csproj",
+      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/task4.csproj",
+      "projectName": "task4",
+      "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/task4.csproj",
       "packagesPath": "/Users/lukasknudsen/.nuget/packages/",
-      "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/test_rpc/obj/",
+      "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lukasknudsen/.nuget/NuGet/NuGet.Config"

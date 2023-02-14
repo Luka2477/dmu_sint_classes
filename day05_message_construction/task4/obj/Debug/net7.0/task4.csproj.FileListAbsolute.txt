@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/bin/Debug/net7.0/task4
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/bin/Debug/net7.0/task4.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/bin/Debug/net7.0/task4.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/bin/Debug/net7.0/task4.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/bin/Debug/net7.0/task4.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/task4.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/task4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/task4.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/task4.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/task4.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/task4.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/task4.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/refint/task4.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/task4.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/task4.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/obj/Debug/net7.0/ref/task4.dll

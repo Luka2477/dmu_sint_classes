@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xnP0B76K+WxTjazBs+7Hddz7O1DXRL58F1srONigRGmQaeqPq3uMkwU3pW7IWxoO4eDoh5hpBh3j5MZkuI/bkw==",
+  "dgSpecHash": "5Yen1Mz0BmNkypn9tbt68mwhOR9EMtyt2EBGdmIsYJ3PXJGVR7r5B+1wdBzxF63BhckT6fYtRRj1YZ1bd+MRmQ==",
   "success": true,
-  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/test_rpc/test_rpc.csproj",
+  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day05_message_construction/task4/task4.csproj",
   "expectedPackageFiles": [
     "/Users/lukasknudsen/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
     "/Users/lukasknudsen/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",

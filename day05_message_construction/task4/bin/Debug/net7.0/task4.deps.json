@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "test_rpc/1.0.0": {
+      "task4/1.0.0": {
         "dependencies": {
           "RabbitMQ.Client": "6.4.0"
         },
         "runtime": {
-          "test_rpc.dll": {}
+          "task4.dll": {}
         }
       },
       "RabbitMQ.Client/6.4.0": {
@@ -31,7 +31,7 @@
     }
   },
   "libraries": {
-    "test_rpc/1.0.0": {
+    "task4/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
