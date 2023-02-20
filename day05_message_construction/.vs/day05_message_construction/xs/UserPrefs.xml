@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{4C1A9DF9-A30B-4F93-B428-25588538DDE0}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.task4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.task2 PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.task2 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.given FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.task4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="task4/RPCClient.cs">
     <Files>
-      <File FileName="task4/Program.cs" Line="35" Column="4" />
+      <File FileName="task4/Program.cs" />
       <File FileName="task4/RPCClient.cs" Line="47" Column="1" />
     </Files>
     <Pads>
@@ -21,12 +20,11 @@
               <Node name="Properties" expanded="True" />
             </Node>
             <Node name="task2" expanded="True" />
-            <Node name="task4" expanded="True">
-              <Node name="RPCClient.cs" selected="True" />
-            </Node>
+            <Node name="task4" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

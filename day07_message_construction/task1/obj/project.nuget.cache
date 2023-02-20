@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WE9eXyj4Yt3pOxW/tcag1N7jsumszlNqKKpY1SCIg98rED1kZX9uaxdcBXsgXNiO1BoR+v7TEWfaZxflP9VTXA==",
+  "dgSpecHash": "A3dA/0JxMcfAaJzZHMNwBzpAQscfOTHG9zLRI0CqMN55JORLDGxTaUZ/4UkPBNxLg7aD+q2hjpdSRtvANlEgeA==",
   "success": true,
   "projectFilePath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day07_message_construction/task1/task1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/lukasknudsen/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }
