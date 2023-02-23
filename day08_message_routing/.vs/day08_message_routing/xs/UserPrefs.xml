@@ -19,10 +19,12 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.task3__checkin FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.task1__splitter FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.task3__splitter FirstBuild="True" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.task1__checkin PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
