@@ -6,8 +6,6 @@ using RabbitMQ.Client.Events;
 namespace task1_aic;
 class Program
 {
-	private static readonly string receiveQueueName = "day08_task1_checkin";
-
 	static void Main(string[] args)
 	{
 		// Connect to RabbitMQ
@@ -20,6 +18,17 @@ class Program
 		IModel channel = connection.CreateModel();
 
 		Console.WriteLine("Connected to RabbitMQ");
+
+		// Create checkin queue
+		string receiveQueueName = channel.QueueDeclare(
+			queue: "day08_task1_checkin",
+			durable: false,
+			exclusive: false,
+			autoDelete: false,
+			arguments: null
+		).QueueName;
+
+		Console.WriteLine($"Created queue '{receiveQueueName}'");
 
 		// Create dummy queues
 		string luggageQueueName = channel.QueueDeclare(
