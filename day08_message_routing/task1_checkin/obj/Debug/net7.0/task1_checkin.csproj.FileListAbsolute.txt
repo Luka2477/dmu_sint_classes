@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/bin/Debug/net7.0/task1_checkin
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/bin/Debug/net7.0/task1_checkin.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/bin/Debug/net7.0/task1_checkin.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/bin/Debug/net7.0/task1_checkin.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/bin/Debug/net7.0/task1_checkin.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/task1_checkin.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/task1_checkin.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/task1_checkin.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/task1_checkin.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/task1_checkin.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/task1_checkin.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/refint/task1_checkin.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/task1_checkin.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/task1_checkin.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/ref/task1_checkin.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/Debug/net7.0/task1_checkin.csproj.CopyComplete

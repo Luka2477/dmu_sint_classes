@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/task1_aic.csproj": {}
+    "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/task1_splitter.csproj": {}
   },
   "projects": {
-    "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/task1_aic.csproj": {
+    "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/task1_splitter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/task1_aic.csproj",
-        "projectName": "task1_aic",
-        "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/task1_aic.csproj",
+        "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/task1_splitter.csproj",
+        "projectName": "task1_splitter",
+        "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/task1_splitter.csproj",
         "packagesPath": "/Users/lukasknudsen/.nuget/packages/",
-        "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/obj/",
+        "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lukasknudsen/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

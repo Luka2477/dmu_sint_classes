@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/bin/Debug/net7.0/task1_splitter
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/bin/Debug/net7.0/task1_splitter.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/bin/Debug/net7.0/task1_splitter.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/bin/Debug/net7.0/task1_splitter.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/bin/Debug/net7.0/task1_splitter.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/task1_splitter.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/task1_splitter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/task1_splitter.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/task1_splitter.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/task1_splitter.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/task1_splitter.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/task1_splitter.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/refint/task1_splitter.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/task1_splitter.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/task1_splitter.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/Debug/net7.0/ref/task1_splitter.dll

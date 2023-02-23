@@ -119,11 +119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/task1_checkin.csproj",
-      "projectName": "task1_checkin",
-      "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/task1_checkin.csproj",
+      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/task1_splitter.csproj",
+      "projectName": "task1_splitter",
+      "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/task1_splitter.csproj",
       "packagesPath": "/Users/lukasknudsen/.nuget/packages/",
-      "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/",
+      "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_splitter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lukasknudsen/.nuget/NuGet/NuGet.Config"

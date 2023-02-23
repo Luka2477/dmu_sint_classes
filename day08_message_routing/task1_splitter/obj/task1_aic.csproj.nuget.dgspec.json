@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/task1_checkin.csproj": {}
+    "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/task1_aic.csproj": {}
   },
   "projects": {
-    "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/task1_checkin.csproj": {
+    "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/task1_aic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/task1_checkin.csproj",
-        "projectName": "task1_checkin",
-        "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/task1_checkin.csproj",
+        "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/task1_aic.csproj",
+        "projectName": "task1_aic",
+        "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/task1_aic.csproj",
         "packagesPath": "/Users/lukasknudsen/.nuget/packages/",
-        "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_checkin/obj/",
+        "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day08_message_routing/task1_aic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lukasknudsen/.nuget/NuGet/NuGet.Config"
