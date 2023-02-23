@@ -1,23 +1,24 @@
-﻿<Properties StartupConfiguration="{02E1A872-9A88-416E-81FF-4E47C9BCC15D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="task1/Program.cs">
-    <Files>
-      <File FileName="task1/Program.cs" Line="1" Column="1" />
-    </Files>
+﻿<Properties StartupConfiguration="{DDF2067A-FF92-47AF-8FE9-E3C36F41D275}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.task1__checkin PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="day08_message_routing" expanded="True">
-            <Node name="task1" expanded="True" />
+            <Node name="task1_aic" expanded="True" />
+            <Node name="task1_checkin" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.task1 PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.task1__aic FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

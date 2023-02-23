@@ -1,4 +1,4 @@
-﻿namespace task1;
+﻿namespace task1_checkin;
 class Program
 {
     static void Main(string[] args)
