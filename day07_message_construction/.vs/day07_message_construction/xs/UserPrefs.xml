@@ -1,18 +1,20 @@
 ﻿<Properties StartupConfiguration="{39A9E9D3-2962-41AD-850C-2166BF6A15F8}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.task1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.task3 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="task1/Program.cs">
-    <Files>
-      <File FileName="task1/Program.cs" Line="6" Column="44" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="day07_message_construction" expanded="True">
             <Node name="task1" expanded="True" />
+            <Node name="task3" expanded="True">
+              <Node name="Assets" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

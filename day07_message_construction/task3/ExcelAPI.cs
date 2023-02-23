@@ -21,7 +21,7 @@ namespace task3
 		private IModel? _channel;
 
 		private string? _consumerTag;
-		private string _excelFile = "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day07_message_construction/task3/Assets/ETA.xlsx";
+		private readonly string _excelFile = "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day07_message_construction/task3/Assets/ETA.xlsx";
 
 		public void Connect()
 		{
