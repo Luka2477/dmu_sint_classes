@@ -47,6 +47,7 @@ class Program
 		consumer.Received += (ch, ea) =>
 		{
 			Console.WriteLine($"Received message from '{ea.RoutingKey}'");
+			Console.WriteLine();
 
 			// Get XML from byte array
 			XElement xml = XElement.Parse(Encoding.UTF8.GetString(ea.Body.ToArray()));
@@ -68,6 +69,7 @@ class Program
 
 				Console.WriteLine($"Sent message to '{luggageQueueName}' with body:");
 				Console.WriteLine(luggage.ToString());
+				Console.WriteLine();
 			}
 
 			// Send Passenger data to dummy queue
@@ -83,6 +85,7 @@ class Program
 
 				Console.WriteLine($"Sent message to '{passengerQueueName}' with body:");
 				Console.WriteLine(passenger.ToString());
+				Console.WriteLine();
 			}
 		};
 
@@ -94,9 +97,10 @@ class Program
 		);
 
 		Console.WriteLine($"Listening to messages on '{receiveQueueName}'");
-
 		Console.WriteLine();
+
 		Console.WriteLine("Press 'ENTER' to exit...");
+		Console.WriteLine();
 		Console.Read();
 	}
 }

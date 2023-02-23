@@ -30,6 +30,7 @@ class Program
 		).QueueName;
 
 		Console.WriteLine($"Created queue '{queueName}'");
+		Console.WriteLine();
 
 		// Load XML from file
 		XElement xml = XElement.Load(_pathToXML);
@@ -40,6 +41,7 @@ class Program
 		byte[] bytes = Encoding.UTF8.GetBytes(xml.ToString());
 
 		Console.WriteLine("Converted XML to byte array");
+		Console.WriteLine();
 
 		// Publish message to queue
 		channel.BasicPublish(
@@ -50,8 +52,8 @@ class Program
 
 		Console.WriteLine($"Sent message to '{queueName}' with body:");
 		Console.WriteLine(xml.ToString());
-
 		Console.WriteLine();
+
 		Console.WriteLine("Press 'ENTER' to exit...");
 		Console.Read();
 	}
