@@ -1,19 +1,10 @@
 ﻿<Properties StartupConfiguration="{DDF2067A-FF92-47AF-8FE9-E3C36F41D275}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="task1_splitter/Program.cs">
-    <Files>
-      <File FileName="task1_checkin/Program.cs" Line="12" Column="3" />
-      <File FileName="task1_aic/Program.cs" Line="53" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="day08_message_routing" expanded="True" selected="True">
-            <Node name="task1_checkin" expanded="True">
-              <Node name="Assets" expanded="True" />
-            </Node>
-            <Node name="task1_splitter" expanded="True" />
-          </Node>
+          <Node name="day08_message_routing" expanded="True" />
         </State>
       </Pad>
     </Pads>
