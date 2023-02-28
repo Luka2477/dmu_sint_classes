@@ -32,6 +32,7 @@ class Program
 		Console.WriteLine($"Created queue '{queueName}'");
 		Console.WriteLine();
 
+		// Main loop
 		while (true)
 		{
 			Console.WriteLine("Type 'send' to send message...");

@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/bin/Debug/net7.0/aggregator
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/bin/Debug/net7.0/aggregator.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/bin/Debug/net7.0/aggregator.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/bin/Debug/net7.0/aggregator.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/bin/Debug/net7.0/aggregator.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/aggregator.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/aggregator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/aggregator.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/aggregator.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/aggregator.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/aggregator.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/aggregator.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/refint/aggregator.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/aggregator.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/aggregator.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/aggregator/obj/Debug/net7.0/ref/aggregator.dll

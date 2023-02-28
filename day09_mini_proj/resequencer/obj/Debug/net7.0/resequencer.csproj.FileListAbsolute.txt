@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/bin/Debug/net7.0/resequencer
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/bin/Debug/net7.0/resequencer.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/bin/Debug/net7.0/resequencer.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/bin/Debug/net7.0/resequencer.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/bin/Debug/net7.0/resequencer.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/resequencer.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/resequencer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/resequencer.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/resequencer.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/resequencer.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/resequencer.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/resequencer.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/refint/resequencer.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/resequencer.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/resequencer.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/obj/Debug/net7.0/ref/resequencer.dll
