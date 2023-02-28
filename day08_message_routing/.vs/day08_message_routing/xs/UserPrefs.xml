@@ -1,21 +1,28 @@
 ﻿<Properties StartupConfiguration="{DDF2067A-FF92-47AF-8FE9-E3C36F41D275}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="day08_message_routing" expanded="True" />
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.task3__checkin FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.task1__splitter FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.task3__splitter FirstBuild="True" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="day08_message_routing" expanded="True">
+            <Node name="task1_checkin" expanded="True" />
+            <Node name="task1_splitter" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="task3_checkin" expanded="True" />
+            <Node name="task3_splitter" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.task1__splitter FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.task1__checkin PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

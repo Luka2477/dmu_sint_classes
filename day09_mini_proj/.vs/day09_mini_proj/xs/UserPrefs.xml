@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{BA288FD0-C956-4ADD-9AEA-D57C8B4276A1}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.resequencer FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.aggregator FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.splitter FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="sender/Program.cs">
+    <Files>
+      <File FileName="sender/Program.cs" Line="5" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="day09_mini_proj" expanded="True">
+            <Node name="aggregator" expanded="True" />
+            <Node name="resequencer" expanded="True" />
+            <Node name="sender" expanded="True" />
+            <Node name="splitter" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.sender FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

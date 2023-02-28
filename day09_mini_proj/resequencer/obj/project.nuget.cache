@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "65Diypo7w6ZXLA3okvNqKF34wixnpIeJnXKeDLru5bZifqXL7Rbq9m3EhFl64rEkFZ0BOAJuHqlBSt66S/gcxg==",
+  "success": true,
+  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/resequencer/resequencer.csproj",
+  "expectedPackageFiles": [
+    "/Users/lukasknudsen/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
