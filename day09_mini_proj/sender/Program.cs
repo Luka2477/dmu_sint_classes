@@ -32,10 +32,40 @@ class Program
 		Console.WriteLine($"Created queue '{queueName}'");
 		Console.WriteLine();
 
+		while (true)
+		{
+			Console.WriteLine("Type 'send' to send message...");
+			Console.WriteLine("Leave empty to exit...");
+			string input = Console.ReadLine();
+
+			switch (input)
+			{
+				case "send":
+					Console.WriteLine();
+					SendMessage(channel, queueName);
+					break;
+				case "":
+					return;
+				default:
+					Console.WriteLine();
+					Console.WriteLine("Unknown command...");
+					Console.WriteLine();
+					break;
+			}
+		}
+	}
+	
+
+	private static void SendMessage(IModel channel, string queueName)
+	{
 		// Load XML from file
 		XElement xml = XElement.Load(PathToXml);
 
 		Console.WriteLine("Loaded XML file");
+		
+		// Generate CorrelationID
+		IBasicProperties props = channel.CreateBasicProperties();
+		props.CorrelationId = Guid.NewGuid().ToString();
 
 		// Convert XML to byte array
 		byte[] bytes = Encoding.UTF8.GetBytes(xml.ToString());
@@ -47,15 +77,13 @@ class Program
 		channel.BasicPublish(
 			exchange: string.Empty,
 			routingKey: queueName,
+			basicProperties: props,
 			body: bytes
 		);
 
 		Console.WriteLine($"Sent message to '{queueName}' with body:");
 		Console.WriteLine(xml.ToString());
 		Console.WriteLine();
-
-		Console.WriteLine("Press 'ENTER' to exit...");
-		Console.Read();
 	}
 }
 

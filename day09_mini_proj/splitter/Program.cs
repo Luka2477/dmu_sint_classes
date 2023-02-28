@@ -60,7 +60,7 @@ class Program
 			
 			// Generate CorrelationID
 			IBasicProperties props = channel.CreateBasicProperties();
-			props.CorrelationId = Guid.NewGuid().ToString();
+			props.CorrelationId = ea.BasicProperties.CorrelationId;
 
 			// Get XML from byte array
 			XElement xml = XElement.Parse(Encoding.UTF8.GetString(ea.Body.ToArray()));
@@ -71,11 +71,14 @@ class Program
 
 			// Send Luggage data to dummy queue
 			List<XElement> luggagesList = luggages.ToList();
-			foreach (var (luggage, i) in luggagesList.Select((v, i) => (v, i)))
+			foreach (XElement luggage in luggagesList)
 			{
+				// Add data to support sliding window principle
+				int sequence = int.Parse(luggage.Element("Identification")?.Value);
+				
 				XElement data = new XElement("Data");
 				data.Add(new XElement("Total", luggagesList.Count));
-				data.Add(new XElement("Current", i));
+				data.Add(new XElement("Sequence", sequence));
 				luggage.AddFirst(data);
 				
 				byte[] bytes = Encoding.UTF8.GetBytes(luggage.ToString());
