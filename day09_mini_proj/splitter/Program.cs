@@ -57,6 +57,10 @@ class Program
 		{
 			Console.WriteLine($"Received message from '{ea.RoutingKey}'");
 			Console.WriteLine();
+			
+			// Generate CorrelationID
+			IBasicProperties props = channel.CreateBasicProperties();
+			props.CorrelationId = Guid.NewGuid().ToString();
 
 			// Get XML from byte array
 			XElement xml = XElement.Parse(Encoding.UTF8.GetString(ea.Body.ToArray()));
@@ -66,13 +70,20 @@ class Program
 			IEnumerable<XElement> passengers = xml.Elements("Passenger");
 
 			// Send Luggage data to dummy queue
-			foreach (XElement luggage in luggages)
+			List<XElement> luggagesList = luggages.ToList();
+			foreach (var (luggage, i) in luggagesList.Select((v, i) => (v, i)))
 			{
+				XElement data = new XElement("Data");
+				data.Add(new XElement("Total", luggagesList.Count));
+				data.Add(new XElement("Current", i));
+				luggage.AddFirst(data);
+				
 				byte[] bytes = Encoding.UTF8.GetBytes(luggage.ToString());
 
 				channel.BasicPublish(
 					exchange: string.Empty,
 					routingKey: luggageQueueName,
+					basicProperties: props,
 					body: bytes
 				);
 
@@ -89,6 +100,7 @@ class Program
 				channel.BasicPublish(
 					exchange: string.Empty,
 					routingKey: passengerQueueName,
+					basicProperties: props,
 					body: bytes
 				);
 
