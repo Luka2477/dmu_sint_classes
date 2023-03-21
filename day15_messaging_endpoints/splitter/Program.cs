@@ -16,6 +16,7 @@ class Program
 		};
 		IConnection connection = factory.CreateConnection();
 		IModel channel = connection.CreateModel();
+		channel.TxSelect();
 
 		Console.WriteLine("Connected to RabbitMQ");
 
@@ -58,57 +59,83 @@ class Program
 			Console.WriteLine($"Received message from '{ea.RoutingKey}'");
 			Console.WriteLine();
 			
-			// Generate CorrelationID
-			IBasicProperties props = channel.CreateBasicProperties();
-			props.CorrelationId = ea.BasicProperties.CorrelationId;
+			// Declare channel as transactional
+			channel.TxSelect();
 
-			// Get XML from byte array
-			XElement xml = XElement.Parse(Encoding.UTF8.GetString(ea.Body.ToArray()));
+			Console.WriteLine("Began transaction");
+			Console.WriteLine();
 
-			// Parse Luggage and Passenger elements
-			IEnumerable<XElement> luggages = xml.Elements("Luggage");
-			IEnumerable<XElement> passengers = xml.Elements("Passenger");
-
-			// Send Luggage data to dummy queue
-			List<XElement> luggagesList = luggages.ToList();
-			foreach (XElement luggage in luggagesList)
+			try
 			{
-				// Add data to support sliding window principle
-				int sequence = int.Parse(luggage.Element("Identification")?.Value);
-				
-				XElement data = new XElement("Data");
-				data.Add(new XElement("Total", luggagesList.Count));
-				data.Add(new XElement("Sequence", sequence));
-				luggage.AddFirst(data);
-				
-				byte[] bytes = Encoding.UTF8.GetBytes(luggage.ToString());
+				// Generate CorrelationID
+				IBasicProperties props = channel.CreateBasicProperties();
+				props.CorrelationId = ea.BasicProperties.CorrelationId;
 
-				channel.BasicPublish(
-					exchange: string.Empty,
-					routingKey: luggageQueueName,
-					basicProperties: props,
-					body: bytes
-				);
+				// Get XML from byte array
+				XElement xml = XElement.Parse(Encoding.UTF8.GetString(ea.Body.ToArray()));
 
-				Console.WriteLine($"Sent message to '{luggageQueueName}' with body:");
-				Console.WriteLine(luggage.ToString());
+				// Parse Luggage and Passenger elements
+				IEnumerable<XElement> luggages = xml.Elements("Luggage");
+				IEnumerable<XElement> passengers = xml.Elements("Passenger");
+
+				// Send Luggage data to dummy queue
+				List<XElement> luggagesList = luggages.ToList();
+				foreach (XElement luggage in luggagesList)
+				{
+					// Add data to support sliding window principle
+					int sequence = int.Parse(luggage.Element("Identification")?.Value);
+
+					XElement data = new XElement("Data");
+					data.Add(new XElement("Total", luggagesList.Count));
+					data.Add(new XElement("Sequence", sequence));
+					luggage.AddFirst(data);
+
+					byte[] bytes = Encoding.UTF8.GetBytes(luggage.ToString());
+
+					channel.BasicPublish(
+						exchange: string.Empty,
+						routingKey: luggageQueueName,
+						basicProperties: props,
+						body: bytes
+					);
+
+					Console.WriteLine($"Sent message to '{luggageQueueName}' with body:");
+					Console.WriteLine(luggage.ToString());
+					Console.WriteLine();
+				}
+
+				// Send Passenger data to dummy queue
+				foreach (XElement passenger in passengers)
+				{
+					byte[] bytes = Encoding.UTF8.GetBytes(passenger.ToString());
+
+					channel.BasicPublish(
+						exchange: string.Empty,
+						routingKey: passengerQueueName,
+						basicProperties: props,
+						body: bytes
+					);
+
+					Console.WriteLine($"Sent message to '{passengerQueueName}' with body:");
+					Console.WriteLine(passenger.ToString());
+					Console.WriteLine();
+				}
+				
+				// Simulate a problem in the transaction
+				// throw new Exception();
+				
+				// Commit transaction to tell RabbitMQ to write messages to disk
+				channel.TxCommit();
+
+				Console.WriteLine("Transaction committed");
 				Console.WriteLine();
 			}
-
-			// Send Passenger data to dummy queue
-			foreach (XElement passenger in passengers)
+			catch
 			{
-				byte[] bytes = Encoding.UTF8.GetBytes(passenger.ToString());
+				// Experienced a problem in the transaction, so we must rollback messages
+				channel.TxRollback();
 
-				channel.BasicPublish(
-					exchange: string.Empty,
-					routingKey: passengerQueueName,
-					basicProperties: props,
-					body: bytes
-				);
-
-				Console.WriteLine($"Sent message to '{passengerQueueName}' with body:");
-				Console.WriteLine(passenger.ToString());
+				Console.WriteLine("Ran into a problem. Rolling back the transaction");
 				Console.WriteLine();
 			}
 		};
