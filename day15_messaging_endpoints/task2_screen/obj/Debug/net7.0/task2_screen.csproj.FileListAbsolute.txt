@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/bin/Debug/net7.0/task2_screen
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/bin/Debug/net7.0/task2_screen.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/bin/Debug/net7.0/task2_screen.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/bin/Debug/net7.0/task2_screen.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/bin/Debug/net7.0/task2_screen.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/task2_screen.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/task2_screen.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/task2_screen.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/task2_screen.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/task2_screen.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/task2_screen.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/task2_screen.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/refint/task2_screen.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/task2_screen.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/task2_screen.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_screen/obj/Debug/net7.0/ref/task2_screen.dll

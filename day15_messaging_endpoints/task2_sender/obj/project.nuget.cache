@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cy3xbfH+Gzei5IU9kbBot32Aqpt7gRcqOwSY32v8nxFqAlpVLtbK+MPk2w810QcG+9wJalarL0G8+tpwjFHwmg==",
+  "success": true,
+  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/task2_sender.csproj",
+  "expectedPackageFiles": [
+    "/Users/lukasknudsen/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

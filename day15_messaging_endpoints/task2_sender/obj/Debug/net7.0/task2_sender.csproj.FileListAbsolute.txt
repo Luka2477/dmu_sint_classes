@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/bin/Debug/net7.0/task2_sender
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/bin/Debug/net7.0/task2_sender.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/bin/Debug/net7.0/task2_sender.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/bin/Debug/net7.0/task2_sender.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/bin/Debug/net7.0/task2_sender.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/task2_sender.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/task2_sender.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/task2_sender.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/task2_sender.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/task2_sender.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/task2_sender.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/refint/task2_sender.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/task2_sender.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/task2_sender.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/ref/task2_sender.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task2_sender/obj/Debug/net7.0/task2_sender.csproj.CopyComplete
