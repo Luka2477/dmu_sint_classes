@@ -119,11 +119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/splitter/splitter.csproj",
-      "projectName": "splitter",
-      "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/splitter/splitter.csproj",
+      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task1_splitter/task1_splitter.csproj",
+      "projectName": "task1_splitter",
+      "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task1_splitter/task1_splitter.csproj",
       "packagesPath": "/Users/lukasknudsen/.nuget/packages/",
-      "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/splitter/obj/",
+      "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task1_splitter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lukasknudsen/.nuget/NuGet/NuGet.Config"

@@ -2,10 +2,10 @@
 using System.Xml.Linq;
 using RabbitMQ.Client;
 
-namespace sender;
+namespace task1_sender;
 class Program
 {
-	private const string PathToXml = "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/sender/Assets/Data.xml";
+	private const string PathToXml = "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day09_mini_proj/task1_sender/Assets/Data.xml";
 
 	private static void Main(string[] args)
 	{

@@ -119,11 +119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/sender/sender.csproj",
-      "projectName": "sender",
-      "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/sender/sender.csproj",
+      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task1_sender/task1_sender.csproj",
+      "projectName": "task1_sender",
+      "projectPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task1_sender/task1_sender.csproj",
       "packagesPath": "/Users/lukasknudsen/.nuget/packages/",
-      "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/sender/obj/",
+      "outputPath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day15_messaging_endpoints/task1_sender/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lukasknudsen/.nuget/NuGet/NuGet.Config"

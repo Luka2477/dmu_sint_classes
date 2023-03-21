@@ -3,7 +3,7 @@ using System.Xml.Linq;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-namespace splitter;
+namespace task1_splitter;
 class Program
 {
 	static void Main(string[] args)

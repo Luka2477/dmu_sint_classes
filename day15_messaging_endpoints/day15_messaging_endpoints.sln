@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sender", "sender\sender.csproj", "{BA288FD0-C956-4ADD-9AEA-D57C8B4276A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task1_sender", "task1_sender\task1_sender.csproj", "{BA288FD0-C956-4ADD-9AEA-D57C8B4276A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "splitter", "splitter\splitter.csproj", "{F68CDCA1-45CC-4023-95F6-346BA3D5E4CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task1_splitter", "task1_splitter\task1_splitter.csproj", "{F68CDCA1-45CC-4023-95F6-346BA3D5E4CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
