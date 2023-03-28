@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pu5K6v+/NiJGq7FsJWm78hdDM/rlEyB8RyNPEjajVHSsIXHHcFz9s6dpOS2sx/w596zZhTaOFYR5MHs2QtvbKA==",
+  "success": true,
+  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/shared_repo/shared_repo.csproj",
+  "expectedPackageFiles": [
+    "/Users/lukasknudsen/.nuget/packages/rabbitmq.client/6.5.0/rabbitmq.client.6.5.0.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

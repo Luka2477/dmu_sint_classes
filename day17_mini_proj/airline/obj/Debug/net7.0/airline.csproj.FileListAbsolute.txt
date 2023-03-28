@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/bin/Debug/net7.0/airline
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/bin/Debug/net7.0/airline.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/bin/Debug/net7.0/airline.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/bin/Debug/net7.0/airline.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/bin/Debug/net7.0/airline.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/airline.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/airline.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/airline.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/airline.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/airline.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/airline.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/airline.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/refint/airline.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/airline.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/airline.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/day17_mini_proj/airline/obj/Debug/net7.0/ref/airline.dll
