@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "62rmC03b37/kZWiMKqcw/WMWbs9ueMv8yydvn1pxVslWqZmZtlu328Dkaqn1HjwkII9iAl6MWHZyAlUikQq53w==",
+  "success": true,
+  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/router.csproj",
+  "expectedPackageFiles": [
+    "/Users/lukasknudsen/.nuget/packages/rabbitmq.client/6.5.0/rabbitmq.client.6.5.0.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

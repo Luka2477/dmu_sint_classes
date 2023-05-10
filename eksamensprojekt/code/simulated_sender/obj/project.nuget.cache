@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pYRhLub0sQGBYuqn1bo6WCbLJm7KTRGrEi+NhIFB6QKGe4+gq8iMOv2wHvYVPwdZV/ingHc5+e5aBMVBFdclAA==",
+  "success": true,
+  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/simulated_sender/simulated_sender.csproj",
+  "expectedPackageFiles": [
+    "/Users/lukasknudsen/.nuget/packages/rabbitmq.client/6.5.0/rabbitmq.client.6.5.0.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/lukasknudsen/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

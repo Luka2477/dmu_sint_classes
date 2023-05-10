@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <STAS>
+        <AttendanceRegistration>
+            <Date>10052023</Date>
+            <Time>082615</Time>
+            <TerminalID>b3fdd7a4-7891-40a6-a28d-028d00754db7</TerminalID>
+            <CardNr>1111222233334444</CardNr>
+            <Room>SH-A1.13</Room>
+            <CPR>1122339876</CPR>
+        </AttendanceRegistration>
+    </STAS>
+    <SS>
+        <AttendanceRegistration>
+            <Date>10052023</Date>
+            <Time>082615</Time>
+            <TerminalID>b3fdd7a4-7891-40a6-a28d-028d00754db7</TerminalID>
+            <CardNr>1111222233334444</CardNr>
+            <Room>SH-A1.13</Room>
+            <CPR>1122339876</CPR>
+            <Class>DMU_21S</Class>
+        </AttendanceRegistration>
+    </SS>
+    <LMS><AttendanceRegistration>
+        <Date>10052023</Date>
+        <Time>082615</Time>
+        <TerminalID>b3fdd7a4-7891-40a6-a28d-028d00754db7</TerminalID>
+        <CardNr>1111222233334444</CardNr>
+        <Room>SH-A1.13</Room>
+        <CPR>1122339876</CPR>
+        <Class>DMU_21S</Class>
+        <Course>System_Integration</Course>
+        <Teacher>SM</Teacher>
+        <Attendance>True</Attendance>
+    </AttendanceRegistration></LMS>
+    <PAYS>
+        <Payment>
+            <Date>10052023</Date>
+            <Time>120824</Time>
+            <TerminalID>def1001c-a599-4110-8c58-edcb1192d7ca</TerminalID>
+            <CardNr>1111222233334444</CardNr>
+            <Amount>59.95</Amount>
+        </Payment>
+    </PAYS>
+    <Out>
+        <Response>
+            <OK>False</OK>
+            <ErrorMessage>Invalid card</ErrorMessage>
+        </Response>
+    </Out>
+</Root>
