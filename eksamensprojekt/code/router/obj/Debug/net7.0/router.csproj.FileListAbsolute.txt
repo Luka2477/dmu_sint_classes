@@ -1,0 +1,17 @@
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/bin/Debug/net7.0/router
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/bin/Debug/net7.0/router.deps.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/bin/Debug/net7.0/router.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/bin/Debug/net7.0/router.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/bin/Debug/net7.0/router.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/router.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/router.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/router.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/router.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/router.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/router.csproj.CopyComplete
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/router.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/refint/router.dll
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/router.pdb
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/router.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/sint/dmu_sint_classes/eksamensprojekt/code/router/obj/Debug/net7.0/ref/router.dll

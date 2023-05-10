@@ -115,7 +115,7 @@ consumer.Received += (ch, ea) =>
 	);
 
 	Console.WriteLine($"Sent message to '{routingKey}' with body:");
-	Console.WriteLine(ea.Body.ToString());
+	Console.WriteLine(Encoding.UTF8.GetString(ea.Body.ToArray()));
 	Console.WriteLine();
 };
 
